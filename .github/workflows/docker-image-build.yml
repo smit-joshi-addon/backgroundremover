@@ -30,7 +30,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ravnoor/backgroundremover
+          images: worksmitjoshi/backgroundremover
           tags: |
             type=semver,pattern={{version}}
             # dynamically set the branch name as a prefix
